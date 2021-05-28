@@ -1,4 +1,4 @@
-# 🐷 Polyearn Frontend
+# 🐷 Polyearn PresaleFront
 
 This project contains the main features of the polyearn application.
 
