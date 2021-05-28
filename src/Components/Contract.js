@@ -7,9 +7,10 @@ class Contract extends Component {
       <section id="principal">
         <div className="row m-5 justify-content-md-center">
           <div className="col col-md-9">
+           <div className="text-center"><img className="logo" src="/images/PEN_383.png" alt="" /><a class="titulo">  PolyEarn</a></div>
             <h1 className="text-center">PEN Token Sale</h1>
             <div className="subtitle">PolyEarn Finance is a DeFi portal on the Polygon network that will allow you to earn tokens and save yourself from market crashes</div>
-            <div className="ml-7 clock"></div>
+            <div className="ml-7 clock"></div> 
             <div className="left-text">left until the presale ends</div>
             <div className="pbar row">
               <div className="col-2 col-md-1 text-right">
@@ -59,7 +60,7 @@ class Contract extends Component {
               </div>  
 						</div>
             <div className="row m-5 justify-content-md-center">
-              <a className="btn btnbuy">Buy Now!</a>
+              <a className="btn btnbuy">Buy Now</a>
             </div>
           </div>
         </div>

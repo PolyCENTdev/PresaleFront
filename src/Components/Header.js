@@ -13,8 +13,8 @@ class Header extends Component {
     return (
       <header>
 
-        <img className="logo-header" src="/images/PEN_383.png" alt="" />
-        <div className="title-logo"><a href="/">PolyEarn</a></div>
+        {/* <img className="logo-header" src="/images/PEN_383.png" alt="" />
+        <div className="title-logo"><a href="/">PolyEarn</a></div> */}
         
         </header>
     );

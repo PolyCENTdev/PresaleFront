@@ -32,7 +32,7 @@ body {
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
+/* 
 header {
    position: relative;
    height: 75px;
@@ -43,7 +43,7 @@ header {
    overflow: hidden;
    display:flex !important;
    background-color: #000 !important;
-}
+} */
 
 /* vertically center banner section */
 header:before {
@@ -506,6 +506,8 @@ ul#nav li.current a { color: #d4aa2a; }
 .bd-footer, .bd-footer a {
    color: #5d5d5d;
    text-decoration: none;
+   background: #161E27;
+   padding: 20px 20px;
 }
 .bd-footer .reserved{
    color: #5d5d5d;
@@ -602,3 +604,132 @@ ul#nav li.current a { color: #d4aa2a; }
    color: #fff;
    text-align: center;
 }
+
+.copyright {
+text-align: center;
+color: white;
+}
+
+.logo {
+   text-align: center;
+   width: 80px;
+   z-index: 9999;
+   margin: 30px 0px 70px 0px;
+}
+.titulo {
+   font-size: 60px;
+   color: #D4AA2A;
+}
+
+/* floating social media */
+.telegram-flotante {
+   position: fixed;
+   bottom: 30px;
+   left: 15px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   background:#0088CC; 
+   color: white !important;
+   z-index: 9999;
+}
+.twitter-flotante {
+position: fixed;
+bottom: 80px;
+left: 15px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background:#00acee; 
+color: white !important;
+z-index: 9999;
+}
+.reddit-flotante {
+position: fixed;
+bottom: 130px;
+left: 15px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background:#FF5700; 
+color: white !important;
+z-index: 9999;
+}
+
+.github-flotante {
+position: fixed;
+bottom: 180px;
+left: 15px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background:#171515; 
+color: white !important;
+z-index: 9999;
+}
+.medium-flotante {
+position: fixed;
+bottom: 230px;
+left: 15px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background:#66cdaa; 
+color: white !important;
+z-index: 9999;
+}
+
+
+.medium-flotante:hover {
+background: #6084F9;
+}
+.github-flotante:hover {
+background: #6084F9;
+}
+.reddit-flotante:hover {
+background: #6084F9;
+}
+.twitter-flotante:hover {
+background: #6084F9;
+}
+.telegram-flotante:hover {
+background: #6084F9;
+}
+
+@media (max-width: 700px) {
+   .logo {
+      text-align: center;
+      width: 55px;
+      z-index: 9999;
+      margin: 0px 0px 20px 0px;
+   }
+   .titulo {
+      font-size: 40px;
+      color: #D4AA2A;
+   }
+   #principal h1 {
+      font-size: 30px;
+   }
+}
+
+ 
